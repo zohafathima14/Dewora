@@ -202,5 +202,7 @@ You can double-click `index.html` or open it directly in modern browsers (Chrome
 ## 8. Deployment & Repository Information
 
 - **GitHub Repository**: [https://github.com/zohafathima14/Dewora](https://github.com/zohafathima14/Dewora)
-- **Live Vercel Deployment**: *(Pending Vercel deployment authorization)*
+- **Live Vercel Production URL**: [https://dewora-skincare.vercel.app](https://dewora-skincare.vercel.app)
+- **Secondary Vercel Domain**: [https://zohawt.vercel.app](https://zohawt.vercel.app)
 - **Hosting Type**: Pure Static Website (Framework Preset: Other / Static HTML)
+- **Deployment Status**: Active, Production-Ready Demo Storefront (HTTP 200 across all 8 direct HTML routes)
