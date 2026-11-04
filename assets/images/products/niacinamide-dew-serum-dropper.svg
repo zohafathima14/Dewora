@@ -1,0 +1,25 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 500" width="400" height="500">
+  <defs>
+    <linearGradient id="bg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#FFF9F3" />
+      <stop offset="100%" stop-color="#DCE8D8" />
+    </linearGradient>
+    <linearGradient id="dropperGlass" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#FFFFFF" />
+      <stop offset="100%" stop-color="#E5ECE4" />
+    </linearGradient>
+  </defs>
+  <rect width="400" height="500" fill="url(#bg)" />
+  
+  <!-- Dropper Pipette Detail -->
+  <rect x="188" y="100" width="24" height="60" rx="4" fill="#526B54" />
+  <rect x="194" y="160" width="12" height="150" fill="url(#dropperGlass)" stroke="#E9E3DC" stroke-width="1" />
+  <path d="M194 310 L200 330 L206 310 Z" fill="url(#dropperGlass)" stroke="#E9E3DC" stroke-width="1" />
+
+  <!-- Falling Dew Drop -->
+  <path d="M200 355 C192 370 188 380 188 392 A12 12 0 0 0 212 392 C212 380 208 370 200 355 Z" fill="#FFFFFF" stroke="#526B54" stroke-width="1.5" />
+
+  <!-- Label badge -->
+  <rect x="110" y="420" width="180" height="34" rx="17" fill="#FFFFFF" stroke="#E9E3DC" stroke-width="1" />
+  <text x="200" y="442" font-family="'DM Sans', sans-serif" font-size="11" font-weight="600" fill="#526B54" letter-spacing="1" text-anchor="middle">PRECISION DROPPER</text>
+</svg>

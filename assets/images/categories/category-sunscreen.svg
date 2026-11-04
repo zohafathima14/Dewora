@@ -1,0 +1,33 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 320 320" width="320" height="320">
+  <defs>
+    <linearGradient id="bgSun" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#FFF9F3" />
+      <stop offset="100%" stop-color="#F2E9B9" />
+    </linearGradient>
+  </defs>
+  <rect width="320" height="320" rx="16" fill="url(#bgSun)" />
+  <circle cx="160" cy="160" r="100" fill="#FFFFFF" opacity="0.6" />
+  
+  <!-- Stylized Sun Silhouette -->
+  <circle cx="160" cy="110" r="32" fill="#F4C7B5" opacity="0.7" />
+  <g stroke="#F4C7B5" stroke-width="2.5" stroke-linecap="round" opacity="0.6">
+    <line x1="160" y1="65" x2="160" y2="73" />
+    <line x1="160" y1="147" x2="160" y2="155" />
+    <line x1="115" y1="110" x2="123" y2="110" />
+    <line x1="197" y1="110" x2="205" y2="110" />
+    <line x1="128" y1="78" x2="134" y2="84" />
+    <line x1="186" y1="136" x2="192" y2="142" />
+    <line x1="128" y1="142" x2="134" y2="136" />
+    <line x1="186" y1="84" x2="192" y2="78" />
+  </g>
+
+  <!-- Sunscreen Tube Packshot -->
+  <g transform="translate(130, 110)">
+    <ellipse cx="30" cy="160" rx="28" ry="8" fill="#252923" opacity="0.08" />
+    <path d="M12,40 L48,40 L44,145 C44,155 38,160 30,160 C22,160 16,155 16,145 Z" fill="#FFFFFF" stroke="#E9E3DC" stroke-width="1.5" />
+    <rect x="22" y="15" width="16" height="25" rx="3" fill="#526B54" />
+    <text x="30" y="85" font-family="'DM Serif Display', serif" font-size="9" fill="#252923" text-anchor="middle">Dewora</text>
+    <rect x="20" y="93" width="20" height="1" fill="#F4C7B5" />
+    <text x="30" y="107" font-family="'DM Sans', sans-serif" font-size="5.5" font-weight="700" fill="#526B54" text-anchor="middle">SPF 50+</text>
+  </g>
+</svg>

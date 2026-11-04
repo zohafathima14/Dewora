@@ -1,0 +1,15 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 200 200" width="200" height="200">
+  <defs>
+    <linearGradient id="shieldGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#DCE8D8" />
+      <stop offset="100%" stop-color="#526B54" />
+    </linearGradient>
+  </defs>
+  <rect width="200" height="200" rx="20" fill="#FFF9F3" stroke="#E9E3DC" stroke-width="1.5" />
+  <circle cx="100" cy="100" r="60" fill="#EEF4EC" />
+
+  <!-- Protective Barrier Hexagon / Matrix Shield -->
+  <polygon points="100,55 140,78 140,122 100,145 60,122 60,78" fill="url(#shieldGrad)" opacity="0.85" />
+  <polygon points="100,68 128,84 128,116 100,132 72,116 72,84" fill="#FFFFFF" opacity="0.9" />
+  <circle cx="100" cy="100" r="12" fill="#526B54" />
+</svg>

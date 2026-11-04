@@ -1,0 +1,256 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Frequently Asked Questions about Dewora skincare routines, demo checkout, and order persistence.">
+  <title>Frequently Asked Questions — Dewora</title>
+
+  <!-- Google Fonts Preconnect & Stylesheets -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link rel="stylesheet" href="css/style.css">
+  <link rel="stylesheet" href="css/components.css">
+  <link rel="stylesheet" href="css/responsive.css">
+
+  <!-- Core Scripts -->
+  <script src="js/data/products.js" defer></script>
+  <script src="js/utils/currency.js" defer></script>
+  <script src="js/utils/dom.js" defer></script>
+  <script src="js/utils/storage.js" defer></script>
+  <script src="js/components/header.js" defer></script>
+  <script src="js/components/footer.js" defer></script>
+  <script src="js/components/product-card.js" defer></script>
+  <script src="js/components/toast.js" defer></script>
+  <script src="js/components/accordion.js" defer></script>
+  <script src="js/components/mobile-menu.js" defer></script>
+  <script src="js/app.js" defer></script>
+</head>
+<body data-page="faq">
+  <a href="#main-content" class="skip-link">Skip to main content</a>
+
+  <div id="site-header"></div>
+
+  <main id="main-content">
+    <div class="faq-page-container container">
+      <!-- Breadcrumb -->
+      <nav class="cart-breadcrumb" aria-label="Breadcrumb">
+        <a href="index.html">Home</a>
+        <span class="cart-breadcrumb-separator" aria-hidden="true">/</span>
+        <span>Frequently Asked Questions</span>
+      </nav>
+
+      <!-- Hero Section -->
+      <section class="faq-hero" aria-labelledby="faq-hero-title">
+        <span class="about-overline">Help & Knowledge Base</span>
+        <h1 class="faq-hero-title" id="faq-hero-title">Frequently Asked Questions</h1>
+        <p class="faq-hero-subtitle">Clear, straightforward answers about how to browse products, use our cart and wishlist, understand our simulated checkout, and learn about our frontend demonstration policies.</p>
+      </section>
+
+      <!-- FAQ Content Sections -->
+      <div class="faq-content-layout">
+
+        <!-- Category 1: Shopping & Discovery -->
+        <section class="faq-category-group" aria-labelledby="faq-cat-shopping">
+          <div class="faq-category-header">
+            <div class="faq-category-icon" aria-hidden="true">
+              <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                <circle cx="11" cy="11" r="8"></circle>
+                <line x1="21" y1="21" x2="16.65" y2="16.65"></line>
+              </svg>
+            </div>
+            <h2 class="faq-category-title" id="faq-cat-shopping">Shopping &amp; Product Discovery</h2>
+          </div>
+
+          <div class="accordion">
+            <!-- Q1: Browsing -->
+            <div class="accordion-item">
+              <button class="accordion-header" id="faq-header-1" type="button" aria-expanded="false" aria-controls="faq-ans-1">
+                <span>How do I browse products on Dewora?</span>
+                <svg class="accordion-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true"><polyline points="6 9 12 15 18 9"></polyline></svg>
+              </button>
+              <div id="faq-ans-1" class="accordion-content" role="region" aria-labelledby="faq-header-1" aria-hidden="true">
+                <p>You can explore our complete skincare collection by clicking <a href="shop.html">Shop All</a> in the navigation bar. You can also filter directly by category, such as Sunscreen, Moisturizers, Cleansers, Serums, and Body Care, from the primary navigation links or homepage category cards.</p>
+                <p>Every product card provides the product's image, category badge, name, size, customer rating, price in INR, and quick action buttons for adding to your shopping bag or saving to your wishlist.</p>
+              </div>
+            </div>
+
+            <!-- Q2: Search and Filters -->
+            <div class="accordion-item">
+              <button class="accordion-header" id="faq-header-2" type="button" aria-expanded="false" aria-controls="faq-ans-2">
+                <span>How do search and filters work?</span>
+                <svg class="accordion-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true"><polyline points="6 9 12 15 18 9"></polyline></svg>
+              </button>
+              <div id="faq-ans-2" class="accordion-content" role="region" aria-labelledby="faq-header-2" aria-hidden="true">
+                <p>You can search for products using the search icon in the header or the keyword input on the <a href="shop.html">Shop</a> page. Search queries match against product titles, categories, short descriptions, and ingredients (such as Niacinamide or Ceramides).</p>
+                <p>On the catalogue page, you can refine your view using four filter groups: Category, Skin Type (Dry, Oily, Combination, Sensitive, Normal), Skin Concern (Hydration, Barrier Care, Sun Care, Dullness), and Price ranges (Under ₹300, ₹300–₹500, ₹500–₹700, ₹700–₹1,000, Above ₹1,000). Multiple filters combine using AND logic across groups so you can find exact matches for your routine.</p>
+              </div>
+            </div>
+
+            <!-- Q3: Adding to Bag -->
+            <div class="accordion-item">
+              <button class="accordion-header" id="faq-header-3" type="button" aria-expanded="false" aria-controls="faq-ans-3">
+                <span>How do I add products to my shopping bag?</span>
+                <svg class="accordion-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true"><polyline points="6 9 12 15 18 9"></polyline></svg>
+              </button>
+              <div id="faq-ans-3" class="accordion-content" role="region" aria-labelledby="faq-header-3" aria-hidden="true">
+                <p>Click the "Add to Bag" button located on any product card or on the individual product detail page. The item is instantly added to your bag, a confirmation toast notification will appear, and the bag badge in the header will update in real time to reflect your current item count.</p>
+              </div>
+            </div>
+
+            <!-- Q4: Wishlist -->
+            <div class="accordion-item">
+              <button class="accordion-header" id="faq-header-4" type="button" aria-expanded="false" aria-controls="faq-ans-4">
+                <span>How does the Wishlist work?</span>
+                <svg class="accordion-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true"><polyline points="6 9 12 15 18 9"></polyline></svg>
+              </button>
+              <div id="faq-ans-4" class="accordion-content" role="region" aria-labelledby="faq-header-4" aria-hidden="true">
+                <p>Click the heart icon on any product card or product detail page to save a product to your wishlist. Clicking the heart again removes the product. You can view all saved items by visiting your <a href="wishlist.html">Wishlist</a> from the heart icon in the navigation bar.</p>
+                <p>On the wishlist page, you can remove individual items, move specific products into your shopping bag, or move all saved items into your bag with a single click.</p>
+              </div>
+            </div>
+
+            <!-- Q5: Cart Adjustments -->
+            <div class="accordion-item">
+              <button class="accordion-header" id="faq-header-5" type="button" aria-expanded="false" aria-controls="faq-ans-5">
+                <span>How can I update cart quantities or remove items?</span>
+                <svg class="accordion-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true"><polyline points="6 9 12 15 18 9"></polyline></svg>
+              </button>
+              <div id="faq-ans-5" class="accordion-content" role="region" aria-labelledby="faq-header-5" aria-hidden="true">
+                <p>Navigate to your <a href="cart.html">Shopping Bag</a> page. For each item in your bag, accessible <code>+</code> and <code>–</code> stepper buttons allow you to increase or decrease the quantity, or you can enter any positive whole number directly into the quantity field. Totals recalculate immediately.</p>
+                <p>To remove an item completely, click the "Remove" button or trash icon next to the product line. Your subtotal, delivery status, and header count will adjust automatically.</p>
+              </div>
+            </div>
+          </div>
+        </section>
+
+        <!-- Category 2: Delivery & Shipping Policy -->
+        <section class="faq-category-group" aria-labelledby="faq-cat-delivery">
+          <div class="faq-category-header">
+            <div class="faq-category-icon" aria-hidden="true">
+              <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                <rect x="1" y="3" width="15" height="13"></rect>
+                <polygon points="16 8 20 8 23 11 23 16 16 16 16 8"></polygon>
+                <circle cx="5.5" cy="18.5" r="2.5"></circle>
+                <circle cx="18.5" cy="18.5" r="2.5"></circle>
+              </svg>
+            </div>
+            <h2 class="faq-category-title" id="faq-cat-delivery">Delivery &amp; Shipping Thresholds</h2>
+          </div>
+
+          <div class="accordion">
+            <!-- Q6: Free Delivery Threshold -->
+            <div class="accordion-item">
+              <button class="accordion-header" id="faq-header-6" type="button" aria-expanded="false" aria-controls="faq-ans-6">
+                <span>What is the free-delivery threshold?</span>
+                <svg class="accordion-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true"><polyline points="6 9 12 15 18 9"></polyline></svg>
+              </button>
+              <div id="faq-ans-6" class="accordion-content" role="region" aria-labelledby="faq-header-6" aria-hidden="true">
+                <p>Complimentary delivery applies when your shopping bag subtotal reaches ₹499 or more. A progress banner on the bag page tracks your current subtotal and displays how close you are to unlocking free delivery.</p>
+                <p>When your bag reaches ₹499 or more, the order summary highlights a green <strong>FREE</strong> delivery badge, and no shipping fee is applied.</p>
+              </div>
+            </div>
+
+            <!-- Q7: Below ₹499 -->
+            <div class="accordion-item">
+              <button class="accordion-header" id="faq-header-7" type="button" aria-expanded="false" aria-controls="faq-ans-7">
+                <span>What happens for orders below ₹499?</span>
+                <svg class="accordion-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true"><polyline points="6 9 12 15 18 9"></polyline></svg>
+              </button>
+              <div id="faq-ans-7" class="accordion-content" role="region" aria-labelledby="faq-header-7" aria-hidden="true">
+                <p>In this demonstration store, delivery charges for cart subtotals below ₹499 have not been configured. The order summary displays the remaining amount needed to reach ₹499 and transparently notes that delivery charges below ₹499 have not been configured in this demo.</p>
+                <p>No arbitrary or invented fee is added; your total to pay strictly equals your bag subtotal.</p>
+              </div>
+            </div>
+          </div>
+        </section>
+
+        <!-- Category 3: Demo Storefront, Security & Privacy -->
+        <section class="faq-category-group" aria-labelledby="faq-cat-demo">
+          <div class="faq-category-header">
+            <div class="faq-category-icon" aria-hidden="true">
+              <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                <path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z"></path>
+              </svg>
+            </div>
+            <h2 class="faq-category-title" id="faq-cat-demo">Demonstration Storefront, Security &amp; Privacy</h2>
+          </div>
+
+          <div class="accordion">
+            <!-- Q8: Simulated Checkout -->
+            <div class="accordion-item">
+              <button class="accordion-header" id="faq-header-8" type="button" aria-expanded="false" aria-controls="faq-ans-8">
+                <span>How does the simulated checkout work?</span>
+                <svg class="accordion-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true"><polyline points="6 9 12 15 18 9"></polyline></svg>
+              </button>
+              <div id="faq-ans-8" class="accordion-content" role="region" aria-labelledby="faq-header-8" aria-hidden="true">
+                <p>Proceeding to <a href="checkout.html">Checkout</a> presents a 3-step progress flow (Bag &gt; Delivery Details &gt; Confirmation). You can enter sample recipient information, phone number, and address details.</p>
+                <p>When you click "Place Demo Order", the system validates required fields and formatting in your browser, disables the button to prevent double-clicks, simulates an 800ms order processing delay, and displays an order confirmation screen with a generated reference number (e.g. <code>DEW-DEMO-XXXXXX</code>).</p>
+              </div>
+            </div>
+
+            <!-- Q9: Real Payments -->
+            <div class="accordion-item">
+              <button class="accordion-header" id="faq-header-9" type="button" aria-expanded="false" aria-controls="faq-ans-9">
+                <span>Are real payments accepted on this site?</span>
+                <svg class="accordion-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true"><polyline points="6 9 12 15 18 9"></polyline></svg>
+              </button>
+              <div id="faq-ans-9" class="accordion-content" role="region" aria-labelledby="faq-header-9" aria-hidden="true">
+                <p>No. Dewora is a frontend-only demonstration storefront. No real payment gateways or processors are connected. No credit card, debit card, UPI ID, net banking password, or digital wallet credentials are ever requested or accepted.</p>
+              </div>
+            </div>
+
+            <!-- Q10: Real Orders Shipped -->
+            <div class="accordion-item">
+              <button class="accordion-header" id="faq-header-10" type="button" aria-expanded="false" aria-controls="faq-ans-10">
+                <span>Are real physical orders placed or shipped?</span>
+                <svg class="accordion-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true"><polyline points="6 9 12 15 18 9"></polyline></svg>
+              </button>
+              <div id="faq-ans-10" class="accordion-content" role="region" aria-labelledby="faq-header-10" aria-hidden="true">
+                <p>No. No physical products are manufactured, packed, or dispatched. The entire ordering flow, including order reference numbers and confirmation summaries, is simulated entirely within your browser for demonstration and interface design purposes.</p>
+              </div>
+            </div>
+
+            <!-- Q11: Local Storage -->
+            <div class="accordion-item">
+              <button class="accordion-header" id="faq-header-11" type="button" aria-expanded="false" aria-controls="faq-ans-11">
+                <span>How are my shopping bag and wishlist items saved?</span>
+                <svg class="accordion-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true"><polyline points="6 9 12 15 18 9"></polyline></svg>
+              </button>
+              <div id="faq-ans-11" class="accordion-content" role="region" aria-labelledby="faq-header-11" aria-hidden="true">
+                <p>Your shopping bag and wishlist items are saved locally on your device using standard browser storage (<code>localStorage</code>). This ensures that your selections persist seamlessly as you navigate between pages or refresh the browser.</p>
+                <p>Stored data consists strictly of product IDs and quantities (e.g. <code>[{"productId":"dew-sun-001","quantity":1}]</code>). No remote database or analytics service is used.</p>
+              </div>
+            </div>
+
+            <!-- Q12: Customer Data Privacy -->
+            <div class="accordion-item">
+              <button class="accordion-header" id="faq-header-12" type="button" aria-expanded="false" aria-controls="faq-ans-12">
+                <span>Is customer information transmitted or saved on a server?</span>
+                <svg class="accordion-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true"><polyline points="6 9 12 15 18 9"></polyline></svg>
+              </button>
+              <div id="faq-ans-12" class="accordion-content" role="region" aria-labelledby="faq-header-12" aria-hidden="true">
+                <p>No. In accordance with strict privacy principles, all contact and delivery information entered during checkout (such as name, email, phone number, and address) is handled strictly in browser memory for the immediate confirmation view.</p>
+                <p>Customer information is never saved to <code>localStorage</code>, <code>sessionStorage</code>, or cookies, and is never transmitted over any network. Once you leave the confirmation view or refresh your browser, that in-memory information is immediately discarded.</p>
+              </div>
+            </div>
+          </div>
+        </section>
+
+        <!-- Footer Card -->
+        <div class="faq-footer-card">
+          <h3>Still Curious About Dewora?</h3>
+          <p>Read about our design philosophy, core values, and approach to everyday skincare.</p>
+          <div style="display: flex; gap: 1rem; justify-content: center; flex-wrap: wrap;">
+            <a href="about.html" class="btn btn-primary" style="padding: 0.75rem 1.75rem;">About Dewora</a>
+            <a href="shop.html" class="btn btn-outline" style="padding: 0.75rem 1.75rem;">Explore Catalogue</a>
+          </div>
+        </div>
+
+      </div>
+    </div>
+  </main>
+
+  <div id="site-footer"></div>
+</body>
+</html>

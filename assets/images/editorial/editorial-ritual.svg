@@ -1,0 +1,48 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 480" width="640" height="480">
+  <defs>
+    <linearGradient id="editGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#FFF9F3" />
+      <stop offset="50%" stop-color="#FBECE5" />
+      <stop offset="100%" stop-color="#DCE8D8" />
+    </linearGradient>
+  </defs>
+  <rect width="640" height="480" rx="16" fill="url(#editGrad)" />
+  <circle cx="480" cy="140" r="140" fill="#FFFFFF" opacity="0.6" />
+  
+  <!-- Warm Daylight Window Arch Shadow -->
+  <path d="M120,40 C220,40 280,100 280,220 L280,480 L40,480 L40,220 C40,100 80,40 120,40 Z" fill="#FFFFFF" opacity="0.4" />
+
+  <!-- Botanical Monstera / Palm Leaves -->
+  <path d="M540,120 C500,80 470,130 440,180 C470,170 500,150 540,120 Z" fill="#526B54" opacity="0.2" />
+  <path d="M580,200 C530,170 500,220 480,280 C510,265 540,240 580,200 Z" fill="#526B54" opacity="0.18" />
+
+  <!-- Pedestal Platform -->
+  <ellipse cx="320" cy="380" rx="200" ry="24" fill="#E9E3DC" opacity="0.6" />
+  <ellipse cx="320" cy="375" rx="190" ry="20" fill="#FFFFFF" opacity="0.85" />
+
+  <!-- Skincare Trio on the Pedestal -->
+  <!-- Cleanser bottle -->
+  <g transform="translate(200, 210)">
+    <rect x="15" y="40" width="45" height="120" rx="8" fill="#FFFFFF" stroke="#E9E3DC" stroke-width="1.5" />
+    <rect x="30" y="25" width="15" height="15" fill="#DCE8D8" />
+    <text x="37" y="90" font-family="'DM Serif Display', serif" font-size="8.5" fill="#252923" text-anchor="middle">Dewora</text>
+    <text x="37" y="105" font-family="'DM Sans', sans-serif" font-size="5" fill="#526B54" font-weight="700" text-anchor="middle">CLEANSE</text>
+  </g>
+
+  <!-- Cream Jar -->
+  <g transform="translate(280, 260)">
+    <rect x="10" y="35" width="80" height="65" rx="8" fill="#FFFFFF" stroke="#E9E3DC" stroke-width="1.5" />
+    <rect x="5" y="18" width="90" height="18" rx="4" fill="#F4C7B5" stroke="#E9E3DC" stroke-width="1" />
+    <text x="50" y="65" font-family="'DM Serif Display', serif" font-size="9" fill="#252923" text-anchor="middle">Dewora</text>
+    <text x="50" y="78" font-family="'DM Sans', sans-serif" font-size="5.5" fill="#526B54" font-weight="700" text-anchor="middle">HYDRATE</text>
+  </g>
+
+  <!-- Serum Dropper -->
+  <g transform="translate(390, 200)">
+    <rect x="15" y="55" width="40" height="110" rx="12" fill="#FFFFFF" stroke="#E9E3DC" stroke-width="1.5" opacity="0.95" />
+    <rect x="27" y="38" width="16" height="18" fill="#FFFFFF" stroke="#E9E3DC" stroke-width="1" />
+    <path d="M30,38 C30,26 33,20 35,20 C37,20 40,26 40,38 Z" fill="#526B54" />
+    <text x="35" y="100" font-family="'DM Serif Display', serif" font-size="8" fill="#252923" text-anchor="middle">Dewora</text>
+    <text x="35" y="115" font-family="'DM Sans', sans-serif" font-size="5" fill="#526B54" font-weight="700" text-anchor="middle">GLOW</text>
+  </g>
+</svg>

@@ -1,0 +1,104 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 600" width="800" height="600" preserveAspectRatio="xMidYMid slice">
+  <defs>
+    <linearGradient id="heroBg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#FFF9F3" />
+      <stop offset="60%" stop-color="#FBECE5" />
+      <stop offset="100%" stop-color="#DCE8D8" />
+    </linearGradient>
+    <linearGradient id="bottleGlass" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#FFFFFF" stop-opacity="0.95" />
+      <stop offset="50%" stop-color="#F7FAF6" stop-opacity="0.8" />
+      <stop offset="100%" stop-color="#E5ECE4" stop-opacity="0.9" />
+    </linearGradient>
+    <linearGradient id="sageAccent" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#526B54" />
+      <stop offset="100%" stop-color="#3D523F" />
+    </linearGradient>
+    <filter id="softGlow" x="-20%" y="-20%" width="140%" height="140%">
+      <feGaussianBlur stdDeviation="8" result="blur" />
+      <feComposite in="SourceGraphic" in2="blur" operator="over" />
+    </filter>
+  </defs>
+
+  <!-- Background Canvas -->
+  <rect width="800" height="600" fill="url(#heroBg)" />
+
+  <!-- Soft Decorative Circles / Organic Shapes -->
+  <circle cx="680" cy="120" r="160" fill="#F4C7B5" opacity="0.35" />
+  <circle cx="200" cy="480" r="180" fill="#DCE8D8" opacity="0.5" />
+  <circle cx="560" cy="450" r="140" fill="#FFF9F3" opacity="0.6" />
+
+  <!-- Botanical Leaf Silhouettes -->
+  <path d="M720,280 C680,240 650,290 620,340 C650,330 680,310 720,280 Z" fill="#526B54" opacity="0.12" />
+  <path d="M120,200 C160,160 190,210 210,260 C180,250 150,230 120,200 Z" fill="#526B54" opacity="0.1" />
+
+  <!-- Pedestal Platform / Minimal Studio Surface -->
+  <ellipse cx="440" cy="480" rx="260" ry="32" fill="#E9E3DC" opacity="0.6" />
+  <ellipse cx="440" cy="475" rx="250" ry="28" fill="#FFFFFF" opacity="0.8" />
+
+  <!-- Bottle 1: Daily Dew Sunscreen Tube (Left) -->
+  <g transform="translate(240, 220) rotate(-6)">
+    <!-- Shadow -->
+    <ellipse cx="60" cy="270" rx="45" ry="10" fill="#252923" opacity="0.1" />
+    <!-- Tube Body -->
+    <path d="M25,50 L95,50 L85,240 C85,255 75,265 60,265 C45,265 35,255 35,240 Z" fill="#FFFFFF" stroke="#E9E3DC" stroke-width="1.5" />
+    <!-- Cap -->
+    <rect x="42" y="15" width="36" height="35" rx="4" fill="url(#sageAccent)" />
+    <!-- Label -->
+    <text x="60" y="120" font-family="'DM Serif Display', serif" font-size="14" fill="#252923" text-anchor="middle">Dewora</text>
+    <rect x="42" y="132" width="36" height="2" fill="#DCE8D8" />
+    <text x="60" y="152" font-family="'DM Sans', sans-serif" font-weight="700" font-size="8" fill="#526B54" letter-spacing="1" text-anchor="middle">SPF 50+ SUN GEL</text>
+    <text x="60" y="170" font-family="'DM Sans', sans-serif" font-size="7" fill="#74776F" text-anchor="middle">Invisible Finish</text>
+    <text x="60" y="185" font-family="'DM Sans', sans-serif" font-size="7" fill="#74776F" text-anchor="middle">PA++++ • 50g</text>
+  </g>
+
+  <!-- Bottle 2: Barrier Butter Cream Jar (Center Foreground) -->
+  <g transform="translate(370, 310)">
+    <!-- Shadow -->
+    <ellipse cx="70" cy="175" rx="75" ry="14" fill="#252923" opacity="0.12" />
+    <!-- Jar Body -->
+    <rect x="15" y="70" width="110" height="95" rx="14" fill="#FFFFFF" stroke="#E9E3DC" stroke-width="1.5" />
+    <!-- Cap -->
+    <rect x="10" y="45" width="120" height="28" rx="6" fill="#F4C7B5" stroke="#E9E3DC" stroke-width="1" />
+    <!-- Label -->
+    <rect x="25" y="90" width="90" height="60" rx="4" fill="#FFF9F3" />
+    <text x="70" y="112" font-family="'DM Serif Display', serif" font-size="13" fill="#252923" text-anchor="middle">Dewora</text>
+    <text x="70" y="126" font-family="'DM Sans', sans-serif" font-size="7.5" font-weight="700" fill="#526B54" letter-spacing="0.5" text-anchor="middle">CERAMIDE BUTTER</text>
+    <text x="70" y="140" font-family="'DM Sans', sans-serif" font-size="7" fill="#74776F" text-anchor="middle">Barrier Relief • 50ml</text>
+  </g>
+
+  <!-- Bottle 3: Dew Drop Serum Glass Dropper (Right) -->
+  <g transform="translate(490, 190) rotate(5)">
+    <!-- Shadow -->
+    <ellipse cx="60" cy="300" rx="50" ry="12" fill="#252923" opacity="0.12" />
+    <!-- Dropper Body -->
+    <rect x="25" y="110" width="70" height="180" rx="18" fill="url(#bottleGlass)" stroke="#E9E3DC" stroke-width="1.5" />
+    <!-- Dropper Neck & Pipette Cap -->
+    <rect x="46" y="80" width="28" height="30" rx="3" fill="#FFFFFF" stroke="#E9E3DC" stroke-width="1" />
+    <path d="M52,80 C52,65 56,50 60,50 C64,50 68,65 68,80 Z" fill="url(#sageAccent)" />
+    <!-- Label -->
+    <rect x="32" y="150" width="56" height="95" rx="4" fill="#FFFFFF" opacity="0.95" stroke="#E9E3DC" stroke-width="0.5" />
+    <text x="60" y="175" font-family="'DM Serif Display', serif" font-size="12" fill="#252923" text-anchor="middle">Dewora</text>
+    <rect x="45" y="184" width="30" height="1.5" fill="#F4C7B5" />
+    <text x="60" y="200" font-family="'DM Sans', sans-serif" font-weight="700" font-size="7.5" fill="#526B54" text-anchor="middle">10% NIACINAMIDE</text>
+    <text x="60" y="214" font-family="'DM Sans', sans-serif" font-size="6.5" fill="#74776F" text-anchor="middle">Glow Drops • 30ml</text>
+  </g>
+
+  <!-- Floating Floating Badge: Daily Essentials -->
+  <g transform="translate(180, 140)">
+    <rect width="165" height="42" rx="21" fill="#FFFFFF" stroke="#E9E3DC" filter="url(#softGlow)" />
+    <circle cx="24" cy="21" r="10" fill="#DCE8D8" />
+    <text x="24" y="25" font-family="'DM Sans', sans-serif" font-size="11" fill="#526B54" font-weight="700" text-anchor="middle">✓</text>
+    <text x="44" y="20" font-family="'DM Sans', sans-serif" font-size="9.5" font-weight="700" fill="#252923">Zero White Cast</text>
+    <text x="44" y="32" font-family="'DM Sans', sans-serif" font-size="8" fill="#74776F">Invisible everyday glow</text>
+  </g>
+
+  <!-- Floating Badge: Barrier Comfort -->
+  <g transform="translate(560, 380)">
+    <rect width="170" height="42" rx="21" fill="#FFFFFF" stroke="#E9E3DC" filter="url(#softGlow)" />
+    <circle cx="24" cy="21" r="10" fill="#F4C7B5" />
+    <text x="24" y="25" font-family="'DM Sans', sans-serif" font-size="10" fill="#A84C3E" font-weight="700" text-anchor="middle">★</text>
+    <text x="44" y="20" font-family="'DM Sans', sans-serif" font-size="9.5" font-weight="700" fill="#252923">5 Barrier Ceramides</text>
+    <text x="44" y="32" font-family="'DM Sans', sans-serif" font-size="8" fill="#74776F">Restores skin comfort</text>
+  </g>
+</svg>

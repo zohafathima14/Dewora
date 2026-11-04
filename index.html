@@ -1,0 +1,367 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Dewora — Everyday care. Naturally you. Premium, mindful Indian skincare essentials formulated for real skin and healthy daily glow.">
+  <title>Dewora — Everyday care. Naturally you.</title>
+
+  <!-- Google Fonts Preconnect & Stylesheets -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link rel="stylesheet" href="css/style.css">
+  <link rel="stylesheet" href="css/components.css">
+  <link rel="stylesheet" href="css/responsive.css">
+
+  <!-- Core Scripts (Predictable Load Order with Defer) -->
+  <script src="js/data/products.js" defer></script>
+  <script src="js/utils/currency.js" defer></script>
+  <script src="js/utils/dom.js" defer></script>
+  <script src="js/utils/storage.js" defer></script>
+  <script src="js/components/header.js" defer></script>
+  <script src="js/components/footer.js" defer></script>
+  <script src="js/components/product-card.js" defer></script>
+  <script src="js/components/toast.js" defer></script>
+  <script src="js/components/accordion.js" defer></script>
+  <script src="js/components/mobile-menu.js" defer></script>
+  <script src="js/pages/home.js" defer></script>
+  <script src="js/app.js" defer></script>
+</head>
+<body data-page="home">
+  <!-- Accessibility Skip Link -->
+  <a href="#main-content" class="skip-link">Skip to main content</a>
+
+  <!-- SECTION 1: Shared Announcement Bar & Header Mount Point -->
+  <div id="site-header"></div>
+
+  <!-- Primary Main Landmark -->
+  <main id="main-content">
+
+    <!-- SECTION 2: HERO CAMPAIGN -->
+    <section class="hero-section" aria-labelledby="hero-heading">
+      <div class="container hero-grid">
+        <div class="hero-content">
+          <div class="hero-pill-badge">
+            <span class="badge-dot" aria-hidden="true"></span>
+            Everyday Skin Rituals
+          </div>
+          <h1 class="hero-title" id="hero-heading">Your everyday glow, made simple.</h1>
+          <p class="hero-subtitle">Thoughtful skincare essentials for the little rituals that make you feel like you. Barrier-loving formulations crafted for real everyday living.</p>
+          <div class="hero-actions">
+            <a href="shop.html" class="btn btn-primary btn-lg">Shop the collection</a>
+            <a href="shop.html?category=Skincare" class="btn btn-secondary btn-lg">Explore skincare</a>
+          </div>
+          <div class="hero-features">
+            <div class="hero-feature-item">
+              <span class="hero-feature-icon" aria-hidden="true">
+                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="20 6 9 17 4 12"></polyline></svg>
+              </span>
+              <span>Zero White Cast</span>
+            </div>
+            <div class="hero-feature-item">
+              <span class="hero-feature-icon" aria-hidden="true">
+                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z"></path></svg>
+              </span>
+              <span>5x Barrier Ceramides</span>
+            </div>
+            <div class="hero-feature-item">
+              <span class="hero-feature-icon" aria-hidden="true">
+                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="12" cy="12" r="10"></circle><polyline points="12 6 12 12 16 14"></polyline></svg>
+              </span>
+              <span>Simple 3-Step Care</span>
+            </div>
+          </div>
+        </div>
+
+        <div class="hero-image-wrapper">
+          <img class="hero-image" 
+               src="assets/images/hero/hero-dewora.svg" 
+               alt="Dewora skincare essentials including Daily Dew Sunscreen, Ceramide Barrier Cream, and 10% Niacinamide Dew Drop Serum" 
+               width="800" 
+               height="600" 
+               fetchpriority="high">
+        </div>
+      </div>
+    </section>
+
+    <!-- SECTION 3: SHOP BY CATEGORY -->
+    <section class="section-spacing" aria-labelledby="categories-heading">
+      <div class="container">
+        <div class="section-header-centered">
+          <h2 class="section-title" id="categories-heading">Find your everyday essentials</h2>
+          <p class="section-subtitle">Gentle, intentional formulations designed for each step of your morning and evening skincare ritual.</p>
+        </div>
+
+        <div class="category-grid">
+          <!-- 1. Sunscreen -->
+          <a href="shop.html?category=Sunscreen" class="category-tile" aria-label="Shop Sunscreen collection">
+            <div class="category-tile-media">
+              <img src="assets/images/categories/category-sunscreen.svg" alt="Sunscreen category" width="320" height="320" loading="lazy">
+            </div>
+            <h3 class="category-tile-title">Sunscreen</h3>
+            <p class="category-tile-copy">PA++++ broad-spectrum sun defense with zero cast.</p>
+            <span class="category-tile-cta">Shop Sunscreen &rarr;</span>
+          </a>
+
+          <!-- 2. Cleansers -->
+          <a href="shop.html?category=Cleansers" class="category-tile" aria-label="Shop Cleansers collection">
+            <div class="category-tile-media">
+              <img src="assets/images/categories/category-cleansers.svg" alt="Cleansers category" width="320" height="320" loading="lazy">
+            </div>
+            <h3 class="category-tile-title">Cleansers</h3>
+            <p class="category-tile-copy">Gentle, pH-balanced washes that soothe and balance.</p>
+            <span class="category-tile-cta">Shop Cleansers &rarr;</span>
+          </a>
+
+          <!-- 3. Moisturizers -->
+          <a href="shop.html?category=Moisturizers" class="category-tile" aria-label="Shop Moisturizers collection">
+            <div class="category-tile-media">
+              <img src="assets/images/categories/category-moisturizers.svg" alt="Moisturizers category" width="320" height="320" loading="lazy">
+            </div>
+            <h3 class="category-tile-title">Moisturizers</h3>
+            <p class="category-tile-copy">Restorative creams and water gels for long-lasting comfort.</p>
+            <span class="category-tile-cta">Shop Moisturizers &rarr;</span>
+          </a>
+
+          <!-- 4. Serums -->
+          <a href="shop.html?category=Serums" class="category-tile" aria-label="Shop Serums collection">
+            <div class="category-tile-media">
+              <img src="assets/images/categories/category-serums.svg" alt="Serums category" width="320" height="320" loading="lazy">
+            </div>
+            <h3 class="category-tile-title">Serums</h3>
+            <p class="category-tile-copy">Concentrated actives targeting texture, spots, and glow.</p>
+            <span class="category-tile-cta">Shop Serums &rarr;</span>
+          </a>
+
+          <!-- 5. Body Care -->
+          <a href="shop.html?category=Body+Care" class="category-tile" aria-label="Shop Body Care collection">
+            <div class="category-tile-media">
+              <img src="assets/images/categories/category-bodycare.svg" alt="Body Care category" width="320" height="320" loading="lazy">
+            </div>
+            <h3 class="category-tile-title">Body Care</h3>
+            <p class="category-tile-copy">Silky lotions and smoothing washes for all-over comfort.</p>
+            <span class="category-tile-cta">Shop Body Care &rarr;</span>
+          </a>
+        </div>
+      </div>
+    </section>
+
+    <!-- SECTION 4: BESTSELLERS -->
+    <section class="section-spacing" style="background-color: var(--color-paper); border-top: var(--border-subtle); border-bottom: var(--border-subtle);" aria-labelledby="bestsellers-heading">
+      <div class="container">
+        <div class="section-header-row">
+          <div>
+            <h2 class="section-title" id="bestsellers-heading">Your glow favourites</h2>
+            <p class="section-subtitle">Meet the essentials everyone's adding to their routine.</p>
+          </div>
+          <a href="shop.html" class="section-link">View all products &rarr;</a>
+        </div>
+
+        <!-- Dynamic Product Cards from products.js -->
+        <div class="product-grid" id="bestsellers-grid">
+          <!-- Populated dynamically by home.js with reusable product-card component -->
+        </div>
+      </div>
+    </section>
+
+    <!-- SECTION 5: SHOP BY SKIN CONCERN -->
+    <section class="section-spacing" aria-labelledby="concerns-heading">
+      <div class="container">
+        <div class="section-header-centered">
+          <h2 class="section-title" id="concerns-heading">Skincare that meets you where you are</h2>
+          <p class="section-subtitle">Gentle, barrier-first essentials designed to support your everyday skin goals with zero guesswork.</p>
+        </div>
+
+        <div class="concern-grid">
+          <!-- Concern 1: Dryness -->
+          <a href="shop.html?concern=Dryness" class="concern-card" aria-label="Explore products for Dryness &amp; Dehydration">
+            <div class="concern-card-media">
+              <img src="assets/images/editorial/concern-hydration.svg" alt="" width="200" height="200" loading="lazy">
+            </div>
+            <h3 class="concern-card-title">Dryness &amp; Dehydration</h3>
+            <p class="concern-card-text">Quench tight, thirsty complexions with moisture-binding multi-molecular hyaluronic acid and soothing oats.</p>
+            <span class="concern-card-cta">Explore Hydration &rarr;</span>
+          </a>
+
+          <!-- Concern 2: Dullness -->
+          <a href="shop.html?concern=Dullness" class="concern-card" aria-label="Explore products for Dull-looking Skin">
+            <div class="concern-card-media">
+              <img src="assets/images/editorial/concern-dullness.svg" alt="" width="200" height="200" loading="lazy">
+            </div>
+            <h3 class="concern-card-title">Dull-looking Skin</h3>
+            <p class="concern-card-text">Revitalize uneven tone and tired complexions with pure Vitamin C, gentle lactic acids, and radiance-boosting rice ferment.</p>
+            <span class="concern-card-cta">Explore Radiance &rarr;</span>
+          </a>
+
+          <!-- Concern 3: Sun Care -->
+          <a href="shop.html?category=Sunscreen" class="concern-card" aria-label="Explore products for Everyday Sun Care">
+            <div class="concern-card-media">
+              <img src="assets/images/editorial/concern-suncare.svg" alt="" width="200" height="200" loading="lazy">
+            </div>
+            <h3 class="concern-card-title">Everyday Sun Care</h3>
+            <p class="concern-card-text">Shield against harmful UVA/UVB rays with breathable, weightless SPF 50+ formulas that leave zero white residue.</p>
+            <span class="concern-card-cta">Explore Sun Care &rarr;</span>
+          </a>
+
+          <!-- Concern 4: Barrier Care -->
+          <a href="shop.html?concern=Barrier+care" class="concern-card" aria-label="Explore products for Skin Barrier Care">
+            <div class="concern-card-media">
+              <img src="assets/images/editorial/concern-barrier.svg" alt="" width="200" height="200" loading="lazy">
+            </div>
+            <h3 class="concern-card-title">Skin Barrier Care</h3>
+            <p class="concern-card-text">Fortify fragile, reactive skin with 5 identical bio-ceramides, plant squalane, and soothing centella asiatica.</p>
+            <span class="concern-card-cta">Explore Barrier Care &rarr;</span>
+          </a>
+        </div>
+      </div>
+    </section>
+
+    <!-- SECTION 6: BRAND VALUE PROPOSITION -->
+    <section class="section-spacing values-section" aria-labelledby="values-heading">
+      <div class="container">
+        <div class="section-header-centered">
+          <h2 class="section-title" id="values-heading">Good skincare. No complicated rituals.</h2>
+          <p class="section-subtitle">Mindful beauty formulated with transparent ingredients, balanced pH, and real everyday ease.</p>
+        </div>
+
+        <div class="values-grid">
+          <div class="value-card">
+            <div class="value-card-icon" aria-hidden="true">
+              <svg viewBox="0 0 24 24"><path d="M12 2L2 7l10 5 10-5-10-5z"></path><path d="M2 17l10 5 10-5"></path><path d="M2 12l10 5 10-5"></path></svg>
+            </div>
+            <h3 class="value-card-title">Simple routines</h3>
+            <p class="value-card-text">Everyday essentials that make skincare straightforward. Just clean, effective steps that work in harmony with your natural skin barrier.</p>
+          </div>
+
+          <div class="value-card">
+            <div class="value-card-icon" aria-hidden="true">
+              <svg viewBox="0 0 24 24"><circle cx="12" cy="12" r="10"></circle><line x1="12" y1="16" x2="12" y2="12"></line><line x1="12" y1="8" x2="12.01" y2="8"></line></svg>
+            </div>
+            <h3 class="value-card-title">Thoughtful ingredients</h3>
+            <p class="value-card-text">Transparent product information to help you choose confidently. Thoughtfully selected botanical actives and barrier-supportive lipids.</p>
+          </div>
+
+          <div class="value-card">
+            <div class="value-card-icon" aria-hidden="true">
+              <svg viewBox="0 0 24 24"><path d="M20.84 4.61a5.5 5.5 0 0 0-7.78 0L12 5.67l-1.06-1.06a5.5 5.5 0 0 0-7.78 7.78l1.06 1.06L12 21.23l7.78-7.78 1.06-1.06a5.5 5.5 0 0 0 0-7.78z"></path></svg>
+            </div>
+            <h3 class="value-card-title">Everyday confidence</h3>
+            <p class="value-card-text">Care that fits naturally into your daily life. No 10-step overwhelm—just balanced, nourished skin that lets your natural glow shine through.</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- SECTION 7: FEATURED EDITORIAL BANNER -->
+    <section class="section-spacing" aria-label="Editorial Feature">
+      <div class="container">
+        <div class="editorial-banner-box">
+          <div class="editorial-grid">
+            <div class="editorial-content">
+              <span class="editorial-eyebrow">The Morning Ritual</span>
+              <h2 class="editorial-heading">A little ritual.<br>A lot more you.</h2>
+              <p class="editorial-desc">Make room for small moments of care with everyday skincare essentials. From refreshing cloud cleansers to invisible SPF protection, each formula is crafted to elevate your daily routine.</p>
+              <a href="about.html" class="btn btn-primary btn-lg">Discover Dewora</a>
+            </div>
+            <div class="editorial-image-pane">
+              <img src="assets/images/editorial/editorial-ritual.svg" 
+                   alt="Dewora skincare ritual trio arranged on warm minimalist pedestal" 
+                   width="640" 
+                   height="480" 
+                   loading="lazy">
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- SECTION 8: CUSTOMER TESTIMONIALS -->
+    <section class="section-spacing" style="background-color: var(--color-paper); border-top: var(--border-subtle); border-bottom: var(--border-subtle);" aria-labelledby="testimonials-heading">
+      <div class="container">
+        <div class="section-header-centered">
+          <h2 class="section-title" id="testimonials-heading">Little notes, lovely routines</h2>
+          <p class="section-subtitle">Sample experiences and routine impressions from our demo skincare community.</p>
+        </div>
+
+        <div class="testimonials-grid">
+          <!-- Testimonial 1 -->
+          <article class="testimonial-card">
+            <div class="testimonial-stars" aria-label="Demo rating: 5 out of 5 stars">
+              <span>★</span><span>★</span><span>★</span><span>★</span><span>★</span>
+            </div>
+            <blockquote class="testimonial-quote">
+              &ldquo;The Daily Dew Sunscreen completely changed my morning habit. It sinks in without any white cast or heavy feeling, even in warm humid weather.&rdquo;
+            </blockquote>
+            <div class="testimonial-author-row">
+              <div>
+                <p class="testimonial-author-name">Ananya R.</p>
+                <p class="testimonial-author-detail">Mumbai &bull; Combination Skin</p>
+              </div>
+              <span class="demo-review-tag">Demo review</span>
+            </div>
+          </article>
+
+          <!-- Testimonial 2 -->
+          <article class="testimonial-card">
+            <div class="testimonial-stars" aria-label="Demo rating: 5 out of 5 stars">
+              <span>★</span><span>★</span><span>★</span><span>★</span><span>★</span>
+            </div>
+            <blockquote class="testimonial-quote">
+              &ldquo;The Ceramide Barrier Butter Cream saved my flaky winter skin. It feels cushiony and luxurious without clogging my pores. A true staple.&rdquo;
+            </blockquote>
+            <div class="testimonial-author-row">
+              <div>
+                <p class="testimonial-author-name">Kavya S.</p>
+                <p class="testimonial-author-detail">Bengaluru &bull; Dry &amp; Sensitive</p>
+              </div>
+              <span class="demo-review-tag">Demo review</span>
+            </div>
+          </article>
+
+          <!-- Testimonial 3 -->
+          <article class="testimonial-card">
+            <div class="testimonial-stars" aria-label="Demo rating: 5 out of 5 stars">
+              <span>★</span><span>★</span><span>★</span><span>★</span><span>★</span>
+            </div>
+            <blockquote class="testimonial-quote">
+              &ldquo;I love how gentle the Cloud Jelly Cleanser is. My face feels genuinely clean and refreshed, but never tight or stripped afterwards.&rdquo;
+            </blockquote>
+            <div class="testimonial-author-row">
+              <div>
+                <p class="testimonial-author-name">Pooja M.</p>
+                <p class="testimonial-author-detail">Delhi &bull; Normal to Oily</p>
+              </div>
+              <span class="demo-review-tag">Demo review</span>
+            </div>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <!-- SECTION 9: STANDALONE HOMEPAGE NEWSLETTER -->
+    <section class="homepage-newsletter-section" aria-labelledby="newsletter-heading">
+      <div class="container">
+        <div class="newsletter-card">
+          <h2 class="newsletter-card-heading" id="newsletter-heading">Your inbox deserves a little glow.</h2>
+          <p class="newsletter-card-sub">Stay connected with the latest Dewora collections, ritual guides, and demo offer previews.</p>
+          <form class="newsletter-card-form" id="homepage-newsletter-form" novalidate>
+            <input type="email" 
+                   id="homepage-newsletter-email" 
+                   class="newsletter-card-input" 
+                   placeholder="Enter your email address" 
+                   aria-label="Email address for ritual updates" 
+                   required>
+            <button type="submit" class="btn btn-primary newsletter-card-btn">Join the list</button>
+          </form>
+          <div id="homepage-newsletter-feedback" class="newsletter-feedback" aria-live="polite"></div>
+          <p class="newsletter-card-privacy">Demo interaction only &bull; We never transmit, store, or share your email.</p>
+        </div>
+      </div>
+    </section>
+
+  </main>
+
+  <!-- SECTION 10: Shared Footer Mount Point -->
+  <div id="site-footer"></div>
+</body>
+</html>

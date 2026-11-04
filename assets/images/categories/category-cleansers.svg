@@ -1,0 +1,30 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 320 320" width="320" height="320">
+  <defs>
+    <linearGradient id="bgClean" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#FFF9F3" />
+      <stop offset="100%" stop-color="#DCE8D8" />
+    </linearGradient>
+  </defs>
+  <rect width="320" height="320" rx="16" fill="url(#bgClean)" />
+  <circle cx="160" cy="160" r="100" fill="#FFFFFF" opacity="0.6" />
+
+  <!-- Cloud / Foam Bubbles -->
+  <circle cx="120" cy="110" r="24" fill="#FFFFFF" opacity="0.8" />
+  <circle cx="150" cy="95" r="30" fill="#FFFFFF" opacity="0.9" />
+  <circle cx="185" cy="105" r="26" fill="#FFFFFF" opacity="0.85" />
+  <circle cx="205" cy="130" r="18" fill="#FFFFFF" opacity="0.7" />
+
+  <!-- Jelly Cleanser Pump Bottle -->
+  <g transform="translate(130, 110)">
+    <ellipse cx="30" cy="160" rx="30" ry="8" fill="#252923" opacity="0.08" />
+    <rect x="12" y="55" width="36" height="95" rx="8" fill="#FFFFFF" stroke="#E9E3DC" stroke-width="1.5" />
+    <!-- Pump Dispenser -->
+    <rect x="25" y="42" width="10" height="13" fill="#DCE8D8" />
+    <path d="M22,35 L40,35 C42,35 44,37 44,40 L44,42 L18,42 L18,40 C18,37 20,35 22,35 Z" fill="#526B54" />
+    <path d="M44,38 L52,40 L44,42 Z" fill="#526B54" />
+    <!-- Label -->
+    <text x="30" y="90" font-family="'DM Serif Display', serif" font-size="8.5" fill="#252923" text-anchor="middle">Dewora</text>
+    <text x="30" y="106" font-family="'DM Sans', sans-serif" font-size="5" font-weight="700" fill="#526B54" text-anchor="middle">CLOUD JELLY</text>
+    <text x="30" y="118" font-family="'DM Sans', sans-serif" font-size="5" fill="#74776F" text-anchor="middle">Balancing Wash</text>
+  </g>
+</svg>

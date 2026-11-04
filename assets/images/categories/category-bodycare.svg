@@ -1,0 +1,28 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 320 320" width="320" height="320">
+  <defs>
+    <linearGradient id="bgBody" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#FFF9F3" />
+      <stop offset="100%" stop-color="#DCE8D8" />
+    </linearGradient>
+  </defs>
+  <rect width="320" height="320" rx="16" fill="url(#bgBody)" />
+  <circle cx="160" cy="160" r="100" fill="#FFFFFF" opacity="0.6" />
+
+  <!-- Botanical Leaves -->
+  <path d="M190,130 C215,110 230,125 240,150 C220,150 200,145 190,130 Z" fill="#526B54" opacity="0.15" />
+  <path d="M110,180 C85,200 70,185 60,160 C80,160 100,165 110,180 Z" fill="#526B54" opacity="0.15" />
+
+  <!-- Body Lotion Bottle -->
+  <g transform="translate(130, 95)">
+    <ellipse cx="30" cy="180" rx="35" ry="9" fill="#252923" opacity="0.08" />
+    <rect x="8" y="60" width="44" height="115" rx="10" fill="#FFFFFF" stroke="#E9E3DC" stroke-width="1.5" />
+    <!-- Pump -->
+    <rect x="25" y="45" width="10" height="15" fill="#E9E3DC" />
+    <path d="M22,38 L42,38 C44,38 46,40 46,43 L46,45 L18,45 L18,43 C18,40 20,38 22,38 Z" fill="#526B54" />
+    <path d="M46,41 L54,43 L46,45 Z" fill="#526B54" />
+    <!-- Label -->
+    <text x="30" y="95" font-family="'DM Serif Display', serif" font-size="8" fill="#252923" text-anchor="middle">Dewora</text>
+    <text x="30" y="112" font-family="'DM Sans', sans-serif" font-size="5" font-weight="700" fill="#526B54" text-anchor="middle">VELVET BODY</text>
+    <text x="30" y="124" font-family="'DM Sans', sans-serif" font-size="5" fill="#74776F" text-anchor="middle">Hydrating Lotion</text>
+  </g>
+</svg>

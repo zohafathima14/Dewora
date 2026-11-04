@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Complete your simulated Dewora demo checkout. No real payments, cards, or personal data stored.">
+  <title>Demo Checkout — Dewora</title>
+
+  <!-- Google Fonts Preconnect & Stylesheets -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link rel="stylesheet" href="css/style.css">
+  <link rel="stylesheet" href="css/components.css">
+  <link rel="stylesheet" href="css/responsive.css">
+
+  <!-- Core Scripts -->
+  <script src="js/data/products.js" defer></script>
+  <script src="js/utils/currency.js" defer></script>
+  <script src="js/utils/dom.js" defer></script>
+  <script src="js/utils/storage.js" defer></script>
+  <script src="js/components/header.js" defer></script>
+  <script src="js/components/footer.js" defer></script>
+  <script src="js/components/product-card.js" defer></script>
+  <script src="js/components/toast.js" defer></script>
+  <script src="js/components/accordion.js" defer></script>
+  <script src="js/components/mobile-menu.js" defer></script>
+  <script src="js/pages/checkout.js" defer></script>
+  <script src="js/app.js" defer></script>
+</head>
+<body data-page="checkout">
+  <a href="#main-content" class="skip-link">Skip to main content</a>
+
+  <div id="site-header"></div>
+
+  <main id="main-content">
+    <div class="checkout-page-container container" id="checkout-root">
+      <!-- Rendered dynamically by Dewora.pages.checkout -->
+    </div>
+  </main>
+
+  <div id="site-footer"></div>
+</body>
+</html>

@@ -1,0 +1,163 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Learn about Dewora's philosophy — everyday skincare made simple, gentle, and transparent.">
+  <title>About Dewora — Everyday care. Naturally you.</title>
+
+  <!-- Google Fonts Preconnect & Stylesheets -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link rel="stylesheet" href="css/style.css">
+  <link rel="stylesheet" href="css/components.css">
+  <link rel="stylesheet" href="css/responsive.css">
+
+  <!-- Core Scripts -->
+  <script src="js/data/products.js" defer></script>
+  <script src="js/utils/currency.js" defer></script>
+  <script src="js/utils/dom.js" defer></script>
+  <script src="js/utils/storage.js" defer></script>
+  <script src="js/components/header.js" defer></script>
+  <script src="js/components/footer.js" defer></script>
+  <script src="js/components/product-card.js" defer></script>
+  <script src="js/components/toast.js" defer></script>
+  <script src="js/components/accordion.js" defer></script>
+  <script src="js/components/mobile-menu.js" defer></script>
+  <script src="js/app.js" defer></script>
+</head>
+<body data-page="about">
+  <a href="#main-content" class="skip-link">Skip to main content</a>
+
+  <div id="site-header"></div>
+
+  <main id="main-content">
+    <div class="about-page-container container">
+      <!-- Breadcrumb -->
+      <nav class="cart-breadcrumb" aria-label="Breadcrumb">
+        <a href="index.html">Home</a>
+        <span class="cart-breadcrumb-separator" aria-hidden="true">/</span>
+        <span>About</span>
+      </nav>
+
+      <!-- Hero Section -->
+      <section class="about-hero" aria-labelledby="about-hero-title">
+        <span class="about-overline">Our Philosophy</span>
+        <h1 class="about-hero-title" id="about-hero-title">Skincare Made Simple, Mindful, and Naturally You.</h1>
+        <p class="about-hero-subtitle">We believe healthy everyday skin is built on simple daily consistency, gentle barrier care, and honest transparency — not complicated multi-step regimens or exaggerated promises.</p>
+      </section>
+
+      <!-- Brand Story Section -->
+      <section class="about-story-section" aria-labelledby="about-story-title">
+        <div class="about-story-content">
+          <span class="about-overline">Everyday Care</span>
+          <h2 id="about-story-title">Why We Created Dewora</h2>
+          <p>Modern skincare often feels overwhelmingly complicated. Between ten-step routines, dense technical jargon, and marketing promises that sound more like laboratory guarantees than daily life, it is easy to lose sight of what your skin genuinely needs.</p>
+          <p>Dewora was conceived around a single grounding principle: skincare should feel like a moment of gentle care, not a stressful assignment. By focusing on the essential pillars — gentle cleansing, lightweight hydration, barrier balance, and daily sun care — we aim to make everyday skincare intuitive, comforting, and uncomplicated.</p>
+          <p>Our formulas and collections are designed to celebrate your skin's natural balance, supporting healthy radiance that fits naturally into your morning and evening rhythms.</p>
+        </div>
+        <div class="about-story-media">
+          <img src="assets/images/editorial/editorial-ritual.svg" alt="Mindful Dewora skincare daily ritual illustration" class="about-story-img" width="600" height="420" loading="lazy">
+        </div>
+      </section>
+
+      <!-- Core Values Section -->
+      <section class="about-values-section" aria-labelledby="about-values-title">
+        <div class="about-values-header">
+          <span class="about-overline">Our Principles</span>
+          <h2 class="about-values-title" id="about-values-title">Mindful Living, Clear Choices</h2>
+          <p class="section-subtitle">Four foundational principles shape every formulation concept and interface detail at Dewora.</p>
+        </div>
+        <div class="about-values-grid">
+          <div class="about-value-card">
+            <div class="about-value-icon" aria-hidden="true">
+              <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                <path d="M12 2L2 7l10 5 10-5-10-5z"></path>
+                <path d="M2 17l10 5 10-5"></path>
+                <path d="M2 12l10 5 10-5"></path>
+              </svg>
+            </div>
+            <h3>Simplicity</h3>
+            <p>Everyday skincare should be effortless. We focus on multi-benefit essentials that streamline your routine into purposeful, comforting daily steps.</p>
+          </div>
+
+          <div class="about-value-card">
+            <div class="about-value-icon" aria-hidden="true">
+              <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                <path d="M12 2.69l5.66 5.66a8 8 0 1 1-11.31 0z"></path>
+              </svg>
+            </div>
+            <h3>Thoughtful Selection</h3>
+            <p>Rather than chasing fleeting trends, we highlight proven, skin-loving ingredients like ceramides, niacinamide, and gentle botanical hydrators.</p>
+          </div>
+
+          <div class="about-value-card">
+            <div class="about-value-icon" aria-hidden="true">
+              <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                <circle cx="12" cy="12" r="10"></circle>
+                <line x1="12" y1="16" x2="12" y2="12"></line>
+                <line x1="12" y1="8" x2="12.01" y2="8"></line>
+              </svg>
+            </div>
+            <h3>Transparency</h3>
+            <p>No mystery ingredients or exaggerated marketing claims. Clear ingredient listings, straightforward pricing in whole INR, and honest guidance.</p>
+          </div>
+
+          <div class="about-value-card">
+            <div class="about-value-icon" aria-hidden="true">
+              <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                <path d="M20.84 4.61a5.5 5.5 0 0 0-7.78 0L12 5.67l-1.06-1.06a5.5 5.5 0 0 0-7.78 7.78l1.06 1.06L12 21.23l7.78-7.78 1.06-1.06a5.5 5.5 0 0 0 0-7.78z"></path>
+              </svg>
+            </div>
+            <h3>Accessible Routines</h3>
+            <p>Editorial beauty quality should feel welcoming and accessible to everyone, designed thoughtfully for Indian climates, diverse skin types, and real lifestyles.</p>
+          </div>
+        </div>
+      </section>
+
+      <!-- Editorial Asymmetric Feature Banner -->
+      <section class="about-editorial-banner" aria-label="Editorial Brand Feature">
+        <div class="about-editorial-text">
+          <span class="about-overline">Editorial Spotlight</span>
+          <h3>A Little Ritual. A Lot More You.</h3>
+          <p>Taking five mindful minutes each morning and evening to cleanse, hydrate, and protect your skin is an act of grounding self-care. Lightweight, breathable textures designed to absorb effortlessly without heaviness or greasiness.</p>
+          <div>
+            <a href="shop.html" class="btn btn-primary">Discover the Collection</a>
+          </div>
+        </div>
+        <div class="about-editorial-media">
+          <img src="assets/images/hero/hero-dewora.svg" alt="Dewora beauty editorial illustration" class="about-editorial-img" width="600" height="450" loading="lazy">
+        </div>
+      </section>
+
+      <!-- Demonstration Disclosure Card -->
+      <section class="about-demo-notice-card" aria-labelledby="about-demo-title">
+        <div class="about-demo-notice-icon" aria-hidden="true">
+          <svg width="26" height="26" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+            <circle cx="12" cy="12" r="10"></circle>
+            <line x1="12" y1="8" x2="12" y2="12"></line>
+            <line x1="12" y1="16" x2="12.01" y2="16"></line>
+          </svg>
+        </div>
+        <div class="about-demo-notice-content">
+          <h3 id="about-demo-title">Frontend Demonstration Storefront</h3>
+          <p>Dewora is a frontend design and engineering demonstration created to explore modern Indian D2C beauty and skincare user experiences. All products, prices, ratings, and customer reviews presented on this storefront are fictional demonstration content.</p>
+          <p>Checkout is completely simulated without real payment processing or data transmission. No physical products are sold or shipped. Customer contact information entered during checkout is never saved to browser storage or transmitted to any server.</p>
+        </div>
+      </section>
+
+      <!-- Call to Action Banner -->
+      <section class="about-cta-section" aria-labelledby="about-cta-title">
+        <h2 class="about-cta-title" id="about-cta-title">Ready to Explore Your Everyday Routine?</h2>
+        <p class="about-cta-desc">Discover our curated catalogue of gentle sunscreens, moisturizers, cleansers, serums, and body care designed for daily balance.</p>
+        <div class="about-cta-actions">
+          <a href="shop.html" class="btn btn-primary" style="padding: 0.85rem 2rem;">Explore Catalogue</a>
+          <a href="faq.html" class="btn btn-outline" style="padding: 0.85rem 2rem;">Read FAQ</a>
+        </div>
+      </section>
+    </div>
+  </main>
+
+  <div id="site-footer"></div>
+</body>
+</html>

@@ -1,0 +1,15 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 200 200" width="200" height="200">
+  <defs>
+    <linearGradient id="glowGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#F4C7B5" />
+      <stop offset="100%" stop-color="#A84C3E" />
+    </linearGradient>
+  </defs>
+  <rect width="200" height="200" rx="20" fill="#FFF9F3" stroke="#E9E3DC" stroke-width="1.5" />
+  <circle cx="100" cy="100" r="60" fill="#FBECE5" />
+
+  <!-- Radiance Sparkle & Sunburst -->
+  <path d="M100,50 L108,85 L145,100 L108,115 L100,150 L92,115 L55,100 L92,85 Z" fill="url(#glowGrad)" opacity="0.85" />
+  <circle cx="135" cy="65" r="5" fill="#DCE8D8" />
+  <circle cx="65" cy="135" r="4" fill="#DCE8D8" />
+</svg>

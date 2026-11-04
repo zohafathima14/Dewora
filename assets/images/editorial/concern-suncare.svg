@@ -1,0 +1,16 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 200 200" width="200" height="200">
+  <defs>
+    <linearGradient id="sunGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#F2E9B9" />
+      <stop offset="100%" stop-color="#526B54" />
+    </linearGradient>
+  </defs>
+  <rect width="200" height="200" rx="20" fill="#FFF9F3" stroke="#E9E3DC" stroke-width="1.5" />
+  <circle cx="100" cy="100" r="60" fill="#FDFBEB" />
+
+  <!-- Sun Shield -->
+  <path d="M100,60 L140,75 C140,110 120,135 100,145 C80,135 60,110 60,75 Z" fill="#526B54" opacity="0.12" stroke="#526B54" stroke-width="2" />
+  <!-- Radiant Core -->
+  <circle cx="100" cy="98" r="18" fill="#F4C7B5" />
+  <path d="M100,74 L100,78 M100,118 L100,122 M76,98 L80,98 M120,98 L124,98" stroke="#526B54" stroke-width="2" stroke-linecap="round" />
+</svg>

@@ -1,0 +1,27 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 320 320" width="320" height="320">
+  <defs>
+    <linearGradient id="bgSerum" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#FFF9F3" />
+      <stop offset="100%" stop-color="#F4C7B5" />
+    </linearGradient>
+  </defs>
+  <rect width="320" height="320" rx="16" fill="url(#bgSerum)" />
+  <circle cx="160" cy="160" r="100" fill="#FFFFFF" opacity="0.6" />
+
+  <!-- Glass Dropper Bottle -->
+  <g transform="translate(130, 95)">
+    <ellipse cx="30" cy="175" rx="30" ry="8" fill="#252923" opacity="0.08" />
+    <rect x="12" y="65" width="36" height="100" rx="10" fill="#FFFFFF" stroke="#E9E3DC" stroke-width="1.5" />
+    <rect x="23" y="48" width="14" height="17" fill="#FFFFFF" stroke="#E9E3DC" stroke-width="1" />
+    <path d="M26,48 C26,38 28,30 30,30 C32,30 34,38 34,48 Z" fill="#526B54" />
+
+    <!-- Active Serum Drop -->
+    <path d="M85,90 C85,82 92,72 92,72 C92,72 99,82 99,90 C99,95 96,99 92,99 C88,99 85,95 85,90 Z" fill="#DCE8D8" stroke="#526B54" stroke-width="1" />
+
+    <!-- Label -->
+    <rect x="16" y="90" width="28" height="55" rx="3" fill="#FFF9F3" />
+    <text x="30" y="108" font-family="'DM Serif Display', serif" font-size="7" fill="#252923" text-anchor="middle">Dewora</text>
+    <text x="30" y="122" font-family="'DM Sans', sans-serif" font-size="5" font-weight="700" fill="#526B54" text-anchor="middle">GLOW</text>
+    <text x="30" y="132" font-family="'DM Sans', sans-serif" font-size="4.5" fill="#74776F" text-anchor="middle">DROPS</text>
+  </g>
+</svg>
