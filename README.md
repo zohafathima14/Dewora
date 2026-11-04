@@ -201,6 +201,6 @@ You can double-click `index.html` or open it directly in modern browsers (Chrome
 
 ## 8. Deployment & Repository Information
 
-- **GitHub Repository**: *(To be linked upon remote creation)*
-- **Live Vercel Deployment**: *(To be linked upon Vercel project deployment)*
+- **GitHub Repository**: [https://github.com/zohafathima14/Dewora](https://github.com/zohafathima14/Dewora)
+- **Live Vercel Deployment**: *(Pending Vercel deployment authorization)*
 - **Hosting Type**: Pure Static Website (Framework Preset: Other / Static HTML)
